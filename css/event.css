@@ -1,0 +1,84 @@
+#event {
+    position: relative;
+    width: 1200px;
+    height: 550px;
+    background-color: #b61533;
+    align-items: center;
+}
+
+#event>.subtitle {
+    color: #fff;
+    margin-top: 32px;
+    margin-left: 516px;
+}
+
+#event-slogan {
+    color: #fff;
+    margin-left: 578px;
+    margin-top: 6px;
+    font-size: 12px;
+}
+
+#event-help {
+    width: 1100px;
+    overflow: hidden;
+}
+
+#event-list {
+    position: relative;
+    transition: all 0.5s linear;
+    right: 825px;
+    margin-top: 47px;
+    width: 3300px;
+}
+
+.event-item {
+    display: inline-block;
+    background-color: #fff;
+    margin: 0 22.5px;
+    width: 230px;
+    height: 300px;
+    padding-left: 17px;
+    box-sizing: border-box;
+}
+
+.event-item-img {
+    height: 200px;
+    width: 190px;
+    margin: 15px 23px 0 0;
+}
+
+.event-article-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    margin-top: 15px;
+}
+
+.event-article-description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+    color: #757575;
+    margin-top: 4px;
+}
+
+.move {
+    font-size: 100px;
+    color: #fff;
+    position: absolute;
+    top: 238px;
+    cursor: pointer;
+}
+
+#left-move {
+    left: -17px;
+}
+
+#right-move {
+    right: -17px;
+}

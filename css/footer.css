@@ -1,0 +1,86 @@
+#footer{
+	position: absolute;
+	min-width: 1200px;
+	margin-top: 10px;
+	width: 100%;
+	height: 200px;
+	background-color: #313131;
+}
+.center{
+	margin: 0 auto;
+}
+#yigongfan{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url("../img/yi-logo.png");
+}
+
+#footer .link{
+	float: left;
+	padding: 0px;
+	text-decoration: none;
+	line-height: 25px;
+	font-size: 12px;
+	color: #ACABAC;
+}
+#footer .link:hover{
+	color: #23527C;
+}
+#footer p{
+	font-size: 12px;
+	line-height: 33px;
+}
+#footer ul{
+	color: #ACABAC;
+	float: left;
+	padding: 0px;
+	list-style: none;
+	width: 100%;
+	line-height: 30px;
+	font-size: 12px;
+	margin-top: 30px;
+}
+#footer li{
+	width: 100px;
+	float: left;
+}
+.linkus{
+	background-position:0px center;
+	background-repeat: no-repeat;
+	padding-left: 25px;
+	text-decoration: none;
+	line-height: 25px;
+	font-size: 12px;
+}
+.weibo, .weibo:hover {
+	color: #d66f21;
+	background-image: url('../img/weibo.png');
+}
+.tencent-weibo, .tencent-weibo:hover {
+	color: #20acd6;
+	background-image: url('../img/qqweibo.png');
+}
+.qzone, .qzone:hover {
+	color: #f6ff00;
+	background-image: url('../img/qzone.png');
+}
+.renren, .renren:hover {
+	color: #1186d6;
+	background-image: url('../img/renren.png');
+}
+.wechat, .wechat:hover {
+	color: #11d6cf;
+	background-image: url('../img/weixin.png');
+}
+.wechat:hover #weixinpic{
+	display: block;
+}
+#weixinpic{
+	display: none;
+	width: 180px;
+	height: 180px;
+	background-size: 180px;
+	background-image: url('../img//weixiner.jpg');
+	position: absolute;
+	top: 10px;
+}

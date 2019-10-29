@@ -1,0 +1,53 @@
+#figure {
+    display: inline-block;
+    background-color: #fff;
+    margin: 50px 20px 0 5px;
+    width: 775px;
+    height: 484px;
+    box-sizing: border-box;
+    padding-top: 16px;
+}
+
+#sub-figure-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 690px;
+    margin-left: 0;
+}
+
+#figure .article-introduction {
+    width: 333px;
+    margin: 0;
+    margin-top: 16px;
+    margin-bottom: 13px;
+    padding-left: 12px;
+}
+
+#figure .article-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box !important;
+    white-space: normal;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    margin-top: 8px;
+    width: 100%;
+}
+
+#figure .article-introduction-left {
+    width: 200px;
+}
+
+#figure-red-line {
+    width: 725px;
+    margin-left: 15px;
+    border-bottom: red 1px solid;
+}
+
+#figure-grey-line {
+    width: 725px;
+    margin-left: 15px;
+    border-bottom: #878787 1px solid;
+    margin-top: 33px;
+}
