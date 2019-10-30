@@ -1,0 +1,100 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-size: 0px;
+    font-family: "Microsoft YaHei" ! important;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #F3F4F5;
+    z-index: -2;
+}
+
+a{
+
+	list-style-type: none;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+
+li {
+    cursor: pointer;
+    position: relative;
+}
+
+#all_word{
+	width: 900px;
+	background-color: #FFFFFF;
+	position: relative;
+	margin: 110px auto;
+	
+}
+
+.page_title{
+	position: relative;
+	height: 50px;
+	top: 40px;
+	margin-left: 35px;
+	font-size: 31px;
+	font-weight: 900;
+	color: #404040;
+	overflow: hidden;
+    text-overflow: ellipsis;
+}
+	
+
+.page_author{
+	
+	height: 20px;
+	position: relative;
+	top: 60px;
+	margin-left: 35px;
+	margin-right: 35px;
+	font-size: 15px;
+	color: #8B8B8B;
+	overflow: hidden;
+    text-overflow: ellipsis;
+}
+	
+.page_description{
+	height: 50px;
+	position: relative;
+	margin-top: 90px;
+	margin-left: 35px;
+	margin-right: 35px;
+	font-size: 15px;
+	line-height: 25px;
+	color: #8B8B8B;
+	overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.page_word{
+	position: relative;
+	margin-top: 40px;
+	margin-left: 35px;
+	margin-right: 35px;
+	font-size: 21px;
+	line-height: 25px;
+	color: #4E4E4E;
+}
+
+.page_imgBox{
+	height: 800px;
+	margin-top: 50px;
+	margin-bottom: 80px;
+
+}
+
+.page_img{
+	position: relative;
+	width: 470px;
+	height: 720px;
+	margin: 0 auto;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
