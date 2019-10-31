@@ -124,7 +124,7 @@ a:hover {
 
 .article-views {
     display: inline-block;
-    background-image: url("/img/yey.png");
+    background-image: url(../img/yey.png);
     padding-left: 20px;
     background-size: contain;
     background-repeat: no-repeat;
